@@ -1,7 +1,7 @@
 # code  start from here 
 def reverse(array):
   new_array=[]
-  for a in range(len(array)-1,0,-1):
+  for a in range(len(array)-1,-1,-1):
     new_array.append(array[a])
 
   return new_array
